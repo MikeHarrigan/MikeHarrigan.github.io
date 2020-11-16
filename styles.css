@@ -3,8 +3,13 @@ body {
     font-family:Arial, Helvetica, sans-serif;
 }
 
-.assignment{
+.assignments {
     display:flex;
+    flex-wrap:wrap;
+}
+
+.assignment{
+    width:30%;
     padding:12px;
     margin:12px;
     background:#8B0000;
@@ -16,6 +21,8 @@ body {
     border:5px solid #B8860B;
     margin-right:22px;
     border-radius:6px;
+    display:block;
+    margin:auto;
 }
 
 h1 {
